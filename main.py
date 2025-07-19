@@ -29,8 +29,6 @@ def create_product_route(product: ProductCreate):
     product_id = db_create_product(product.dict())
     return {
         "id": product_id,
-        "name": product.name,
-        "price": product.price
     }
 
 @app.get("/products", response_model=ProductListResponse, status_code=200)
