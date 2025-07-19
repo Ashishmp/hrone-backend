@@ -1,4 +1,4 @@
-from database import product_collection
+from database.mongoDb_Handler import product_collection
 
 def create_product(data):
     result = product_collection.insert_one(data)

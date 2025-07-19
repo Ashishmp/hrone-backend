@@ -1,4 +1,4 @@
-from database import order_collection, product_collection
+from database.mongoDb_Handler import order_collection, product_collection
 from bson import ObjectId
 
 def create_order(data):
