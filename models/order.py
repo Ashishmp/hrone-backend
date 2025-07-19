@@ -2,6 +2,8 @@ from database.mongoDb_Handler import order_collection, product_collection
 from bson import ObjectId
 
 def create_order(data):
+    for item in data["items"]:
+        item["productId"] = ObjectId(item["productId"])  # convert string to ObjectId
     result = order_collection.insert_one(data)
     return str(result.inserted_id)
 
