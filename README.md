@@ -31,8 +31,9 @@ pip install -r requirements.txt
 4. Create a .env File
 
 In the root directory:
-MONGODB_URI=<your_mongodb_connection_uri>
-DATABASE_NAME=<your_database_name>
+MONGODB_URI=<your_mongodb_connection_uri> // add your own I have added mine
+
+DATABASE_NAME=<your_database_name> // add your own I have added mine
 
 5. Run the Server
 
