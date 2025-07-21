@@ -5,7 +5,7 @@ This is a FastAPI-based backend application built for the HROne Backend Intern H
 🚀 Tech Stack
 - Framework: FastAPI
 - Database: MongoDB (MongoDB Atlas)
-- Deployment: Render / Railway (optional)
+- Deployment: Railway 
 - Environment: Python 3.10+ (using venv)
 
   
@@ -14,6 +14,7 @@ This is a FastAPI-based backend application built for the HROne Backend Intern H
 1. Clone the Repository
 
 git clone https://github.com/Ashishmp/hrone-backend.git
+
 cd hrone-backend
 
 2. Activate the Virtual Environment
