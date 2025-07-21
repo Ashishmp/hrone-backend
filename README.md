@@ -19,11 +19,11 @@ cd hrone-backend
 2. Activate the Virtual Environment
 
 On Windows:
-venv\Scripts\activate
-On Linux / macOS:
-source venv/bin/activate
+cd venv\Scripts
+./activate
 
-3. Install Dependencies (if needed)
+
+3. Install Dependencies 
 
 pip install -r requirements.txt
 
